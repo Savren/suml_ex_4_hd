@@ -31,7 +31,7 @@ def main():
 
     with left:
         symptom_slider = st.slider("Objawy", value=0, min_value=0, max_value=10, step=1)
-        age_slider = st.slider("Wiek", value=0, min_value=0, max_value=100, step=1)
+        age_slider = st.slider("Wiek", value=10, min_value=10, max_value=100, step=1)
         sickness_slider = st.slider("Choroby współistniejące", value=0, min_value=0, max_value=10, step=1)
 
     with right:
